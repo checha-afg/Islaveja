@@ -1,0 +1,20 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1754929213
+icon.svg::CompressedTexture2D/CompressedTexture2D::3329148758624822819::1754926901::1754926910::1::::<><><>0<>0<>db175808a443505ce35659a01aad4410<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene/PackedScene::839893153591174989::1754926948::0::1::::<><><>0<>0<><>::
+::res://resources/::1754927529
+::res://resources/tilemaps/::1754927196
+Tilemap_color1.png::CompressedTexture2D/CompressedTexture2D::1939358774089684376::1754923250::1754927196::1::::<><><>0<>0<>4580b98e60bd8f4b954d4dda8cfffe68<>res://.godot/imported/Tilemap_color1.png-0844b7200a179215ae2990d78b474c1a.ctex::
+Tilemap_color2.png::CompressedTexture2D/CompressedTexture2D::5347462539483201948::1754923250::1754927196::1::::<><><>0<>0<>402470dff60dc7e04ca0e14c43b3543a<>res://.godot/imported/Tilemap_color2.png-1b06d482d45bbfa55b501fd78c317c15.ctex::
+Tilemap_color3.png::CompressedTexture2D/CompressedTexture2D::3103378027159667489::1754923250::1754927196::1::::<><><>0<>0<>feb8ea246c2d41711390aacd07c9558d<>res://.godot/imported/Tilemap_color3.png-d8f4ec40df27fdb5545c4e0f93ef6c8e.ctex::
+Water Background color.png::CompressedTexture2D/CompressedTexture2D::5996571507724983607::1754923250::1754927196::1::::<><><>0<>0<>a6259d726ef09d08500f5e6ca98286e9<>res://.godot/imported/Water Background color.png-154e24bb1cb185887302c273dfbf5aac.ctex::
+Water_Elevation_#1_(12frames).png::CompressedTexture2D/CompressedTexture2D::2528375303627261168::1754923250::1754927196::1::::<><><>0<>0<>09de989ff9c6cf9bdfffa1a50fe33536<>res://.godot/imported/Water_Elevation_#1_(12frames).png-ce6b1bed739200737260858f1b3ca724.ctex::
+Water_Elevation_#2_(12frames).png::CompressedTexture2D/CompressedTexture2D::988412748004937645::1754923250::1754927196::1::::<><><>0<>0<>1f8f573d6cccf7f2f78d60de560075d2<>res://.godot/imported/Water_Elevation_#2_(12frames).png-3e79c28c9c5ea19490a0644d4424e03a.ctex::
+Water_Elevation_#3_(12frames).png::CompressedTexture2D/CompressedTexture2D::4350852345293106693::1754923250::1754927196::1::::<><><>0<>0<>02dad33c0805074666c8cf8adf83da38<>res://.godot/imported/Water_Elevation_#3_(12frames).png-41863f72dee8cf5d691b6326060a2d1f.ctex::
+Water_Elevation_#4_(12frames).png::CompressedTexture2D/CompressedTexture2D::7707652751524288309::1754923250::1754927196::1::::<><><>0<>0<>0835e58e7de77dc60506688659118587<>res://.godot/imported/Water_Elevation_#4_(12frames).png-bf30f3252d4f88b4d2dab999faee689a.ctex::
+Water_FlatGround_#1_(12frames).png::CompressedTexture2D/CompressedTexture2D::7737392373748078376::1754923250::1754927196::1::::<><><>0<>0<>b0373001606cea35330c784a550dbcda<>res://.godot/imported/Water_FlatGround_#1_(12frames).png-d059718253db3e0a0021f87c5dea01e1.ctex::
+Water_FlatGround_#2_(12frames).png::CompressedTexture2D/CompressedTexture2D::280038805835726339::1754923250::1754927196::1::::<><><>0<>0<>308a20dd51af923881799171cb7458dd<>res://.godot/imported/Water_FlatGround_#2_(12frames).png-f8877a3cb5d629a996057187dcd816f9.ctex::
+Water_FlatGround_#3_(12frames).png::CompressedTexture2D/CompressedTexture2D::8481726199768548583::1754923250::1754927196::1::::<><><>0<>0<>4b9f116185fa79af9fd4fa921744807f<>res://.godot/imported/Water_FlatGround_#3_(12frames).png-6f45cf99153a3c08acfb90de1ec6933f.ctex::
+Water_FlatGround_#4_(12frames).png::CompressedTexture2D/CompressedTexture2D::222000757397796145::1754923250::1754927196::1::::<><><>0<>0<>0f42307d90c7372dee1d5b23ab1c9292<>res://.godot/imported/Water_FlatGround_#4_(12frames).png-59cbff13f0055062e591511e957aa098.ctex::
+::res://resources/tilesets/::1754929121
+tileset_terreno1.tres::TileSet::6901774151861877044::1754927600::0::1::::<><><>0<>0<><>::
