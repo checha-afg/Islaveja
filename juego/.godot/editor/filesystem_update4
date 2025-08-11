@@ -1,2 +1,4 @@
 res://main.tscn
-res://resources/tilesets/tileset_terreno1.tres
+res://resources/tilesets/tileset_terreno.tres
+res://resources/sprites/mc_idle.tres
+res://scripts/mc.gd
