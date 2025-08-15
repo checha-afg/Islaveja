@@ -1,7 +1,13 @@
+Label
+TextureRect
+Panel
+CanvasLayer
+TileMapLayer
+Camera2D
+CollisionPolygon2D
 CollisionShape2D
 AnimatedSprite2D
 Sprite2D
 CharacterBody2D
-TileMapLayer
 AudioStreamPlayer2D
 TileMap

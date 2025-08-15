@@ -1,4 +1,7 @@
 res://main.tscn
 res://resources/tilesets/tileset_terreno.tres
 res://resources/sprites/mc_idle.tres
-res://scripts/mc.gd
+res://resources/tilesets/tileset_adornos.tres
+res://resources/misc/textbox.tres
+res://user_interface.tscn
+res://canvas_layer_presentacion.gd

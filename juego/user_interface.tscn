@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://dohjsyeyty131"]
+
+[ext_resource type="Script" uid="uid://br8xuin7krtg7" path="res://canvas_layer_presentacion.gd" id="1_juc2q"]
+[ext_resource type="StyleBox" uid="uid://8dewje6bcgn7" path="res://resources/misc/textbox.tres" id="1_kxhmu"]
+[ext_resource type="Texture2D" uid="uid://cmvm4ad2n8bv7" path="res://resources/sprites/Units/warriorportrait.png" id="2_i7dvk"]
+
+[node name="UserInterface" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("1_juc2q")
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+offset_left = 387.0
+offset_top = 454.0
+offset_right = 1145.0
+offset_bottom = 651.0
+theme_override_styles/panel = ExtResource("1_kxhmu")
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel"]
+layout_mode = 0
+offset_left = -610.0
+offset_top = -316.0
+offset_right = 216.0
+offset_bottom = 510.0
+texture = ExtResource("2_i7dvk")
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 22.0
+offset_right = 729.0
+offset_bottom = 176.0
+autowrap_mode = 2
