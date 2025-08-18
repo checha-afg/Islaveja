@@ -1,13 +1,23 @@
-[gd_scene load_steps=4 format=3 uid="uid://dohjsyeyty131"]
+[gd_scene load_steps=5 format=3 uid="uid://dohjsyeyty131"]
 
-[ext_resource type="Script" uid="uid://br8xuin7krtg7" path="res://canvas_layer_presentacion.gd" id="1_juc2q"]
+[ext_resource type="Script" uid="uid://bt5ghv02m4lho" path="res://canvas_layer_dialogo.gd" id="1_juc2q"]
 [ext_resource type="StyleBox" uid="uid://8dewje6bcgn7" path="res://resources/misc/textbox.tres" id="1_kxhmu"]
 [ext_resource type="Texture2D" uid="uid://cmvm4ad2n8bv7" path="res://resources/sprites/Units/warriorportrait.png" id="2_i7dvk"]
+[ext_resource type="FontFile" uid="uid://bs63r814vqsio" path="res://resources/fonts/PixeloidSans.ttf" id="4_0jl8t"]
 
-[node name="UserInterface" type="Node2D"]
+[node name="Presentacion" type="Node2D"]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+process_mode = 3
 script = ExtResource("1_juc2q")
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.623529)
 
 [node name="Panel" type="Panel" parent="CanvasLayer"]
 offset_left = 387.0
@@ -26,8 +36,10 @@ texture = ExtResource("2_i7dvk")
 
 [node name="Label" type="Label" parent="CanvasLayer/Panel"]
 layout_mode = 0
-offset_left = 24.0
-offset_top = 22.0
-offset_right = 729.0
+offset_left = 26.0
+offset_top = 30.0
+offset_right = 727.0
 offset_bottom = 176.0
+theme_override_fonts/font = ExtResource("4_0jl8t")
+theme_override_font_sizes/font_size = 32
 autowrap_mode = 2

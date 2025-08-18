@@ -1,3 +1,3 @@
+SpriteFrames
 StyleBoxTexture
 TileSet
-SpriteFrames

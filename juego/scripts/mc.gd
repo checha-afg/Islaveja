@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 var speed = 200
+var npc_cercano = null  # NPC cercano con el que se puede interactuar
 
 func _physics_process(delta):
 	var dir = Vector2.ZERO
@@ -20,5 +21,14 @@ func _physics_process(delta):
 	else:
 		$Sprite2D.play("default")
 
+	# Movimiento
 	velocity = dir * speed
 	move_and_slide()
+
+	# Interacción con NPC
+	if Input.is_action_just_pressed("ui_accept") and npc_cercano:
+		npc_cercano.mostrar_dialogo(npc_cercano.dialogo)
+
+		# Reproducir animación del NPC si tiene AnimatedSprite2D
+		if npc_cercano.has_node("AnimatedSprite2D"):
+			npc_cercano.get_node("AnimatedSprite2D").play("default")

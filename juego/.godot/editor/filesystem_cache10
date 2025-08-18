@@ -1,18 +1,26 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1755273333
+::res://::1755549033
+canvas_layer_dialogo.gd::GDScript::3782317990805851376::1755541323::0::1::::<>CanvasLayer<><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::3329148758624822819::1754926901::1754926910::1::::<><><>0<>0<>db175808a443505ce35659a01aad4410<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene::839893153591174989::1755272642::0::1::::<><><>0<>0<><>::uid://c5ljhg8jpffua::::res://resources/tilesets/tileset_terreno.tres<>uid://cbg6acf66vudt::::res://resources/audio/07 - Port Town.wav<>uid://bkemqnsxvxoj0::::res://scripts/mc.gd<>uid://bboqre5w8y03b::::res://resources/sprites/mc_idle.tres<>uid://180pup6igppk::::res://resources/tilesets/tileset_adornos.tres
-user_interface.tscn::PackedScene::8156936371371797290::1755273333::0::1::::<><><>0<>0<><>::uid://8dewje6bcgn7::::res://resources/misc/textbox.tres
-::res://resources/::1755273194
+main.tscn::PackedScene::839893153591174989::1755548788::0::1::::<><><>0<>0<><>::uid://c5ljhg8jpffua::::res://resources/tilesets/tileset_terreno.tres<>uid://cbg6acf66vudt::::res://resources/audio/07 - Port Town.wav<>uid://bkemqnsxvxoj0::::res://scripts/mc.gd<>uid://bboqre5w8y03b::::res://resources/sprites/mc_idle.tres<>uid://180pup6igppk::::res://resources/tilesets/tileset_adornos.tres<>uid://dohjsyeyty131::::res://user_interface.tscn<>uid://dt1wym4yrxsan::::res://npc1.tscn
+npc1.tscn::PackedScene::8547903210895674845::1755548788::0::1::::<><><>0<>0<><>::uid://bwhjbuq8tyn05::::res://resources/sprites/npc1.tres<>uid://dgjvetckrfyls::::res://npc_1.gd
+npc_1.gd::GDScript::7600257714228308960::1755548782::0::1::::<>StaticBody2D<><>0<>0<><>::
+npc1_dialogue_box.tscn::PackedScene::6019348140276260399::1755549033::0::1::::<><><>0<>0<><>::uid://bt5ghv02m4lho::::res://canvas_layer_dialogo.gd<>uid://8dewje6bcgn7::::res://resources/misc/textbox.tres<>uid://cmvm4ad2n8bv7::::res://resources/sprites/Units/warriorportrait.png<>uid://bs63r814vqsio::::res://resources/fonts/PixeloidSans.ttf
+user_interface.tscn::PackedScene::8156936371371797290::1755545866::0::1::::<><><>0<>0<><>::uid://bt5ghv02m4lho::::res://canvas_layer_dialogo.gd<>uid://8dewje6bcgn7::::res://resources/misc/textbox.tres<>uid://cmvm4ad2n8bv7::::res://resources/sprites/Units/warriorportrait.png<>uid://bs63r814vqsio::::res://resources/fonts/PixeloidSans.ttf
+::res://resources/::1755539197
 ::res://resources/audio/::1754957090
 07 - Port Town.wav::AudioStreamWAV/AudioStreamWAV::4857298818545849089::1754930567::1754930570::1::::<><><>0<>0<>0bbb16a9064ddf74b7d75878ee6a3d1f<>res://.godot/imported/07 - Port Town.wav-3c9f0f69ee37d8a1a93ccd94c03f1163.sample::
-::res://resources/misc/::1755273333
-HUD Text Box.png::CompressedTexture2D::684530978299010813::1755273198::1755273200::1::::<><><>0<>0<>d3edac4f080e251fde73bf8be2c42864<>res://.godot/imported/HUD Text Box.png-f121ade0bd7bd996506ab4bba7ed82d4.ctex::
-textbox.tres::StyleBoxTexture::2322707609053511026::1755273333::0::1::::<><><>0<>0<><>::uid://j0ueiy6c0npd::::res://resources/misc/HUD Text Box.png
-::res://resources/sprites/::1755269378
-mc_idle.tres::SpriteFrames::2486512903750801581::1755269378::0::1::::<><><>0<>0<><>::uid://b5ialflxaql53::::res://resources/sprites/Units/Blue Units/Warrior/Warrior_Idle.png<>uid://b6g3ibee7eect::::res://resources/sprites/Units/Blue Units/Warrior/Warrior_Run.png
-::res://resources/sprites/Units/::1755273615
-warriorportrait.png::CompressedTexture2D::5659239821694126566::1755273551::1755273617::1::::<><><>0<>0<>4206a0630d64da11fb85b548af1aa6af<>res://.godot/imported/warriorportrait.png-4474bf593468b2c766c7de87f75ad5bd.ctex::
+::res://resources/fonts/::1755539309
+PixeloidSans.ttf::FontFile/FontFile::3715547788629191126::1754118644::1755539200::1::::<><><>0<>0<>f392bedb73c53a069f18bf721e14307c<>res://.godot/imported/PixeloidSans.ttf-d162b580552683a2f0b25902f3af2ac7.fontdata::
+::res://resources/misc/::1755545937
+HUD Text Box.png::CompressedTexture2D/CompressedTexture2D::684530978299010813::1755525503::1755527473::1::::<><><>0<>0<>d3edac4f080e251fde73bf8be2c42864<>res://.godot/imported/HUD Text Box.png-f121ade0bd7bd996506ab4bba7ed82d4.ctex::
+textbox.tres::StyleBoxTexture::2322707609053511026::1755545937::0::1::::<><><>0<>0<><>::uid://j0ueiy6c0npd::::res://resources/misc/HUD Text Box.png
+::res://resources/sprites/::1755545937
+mc_idle.tres::SpriteFrames::2486512903750801581::1755545937::0::1::::<><><>0<>0<><>::uid://b5ialflxaql53::::res://resources/sprites/Units/Blue Units/Warrior/Warrior_Idle.png<>uid://b6g3ibee7eect::::res://resources/sprites/Units/Blue Units/Warrior/Warrior_Run.png
+npc1.tres::SpriteFrames::3945575203446627124::1755545734::0::1::::<><><>0<>0<><>::uid://8ux6y30gbrtf::::res://resources/sprites/Units/Red Units/Lancer/Lancer_Idle.png
+::res://resources/sprites/Units/::1755549162
+npc1.png::CompressedTexture2D::5059567538267959435::1755549162::1755549178::1::::<><><>0<>0<>3a6de34cfb20a4731006b063dfb4664d<>res://.godot/imported/npc1.png-3eaa198b541dc2df2df1e79c29ed5ce3.ctex::
+warriorportrait.png::CompressedTexture2D/CompressedTexture2D::5659239821694126566::1755273551::1755273617::1::::<><><>0<>0<>4206a0630d64da11fb85b548af1aa6af<>res://.godot/imported/warriorportrait.png-4474bf593468b2c766c7de87f75ad5bd.ctex::
 ::res://resources/sprites/Units/Black Units/::1754957092
 ::res://resources/sprites/Units/Black Units/Archer/::1754957093
 Archer_Idle.png::CompressedTexture2D/CompressedTexture2D::262957613355314271::1754923248::1754939190::1::::<><><>0<>0<>997c5c0f6ecc5577ec0bea453cbc3ae0<>res://.godot/imported/Archer_Idle.png-463523870299262a3a1d82ffdd0faabb.ctex::
@@ -172,8 +180,8 @@ Tree1.png::CompressedTexture2D/CompressedTexture2D::5391762048205270085::1754923
 Tree2.png::CompressedTexture2D/CompressedTexture2D::2163309231411509861::1754923248::1754938579::1::::<><><>0<>0<>df03e88904a11c89d3f1e440bb0f18c5<>res://.godot/imported/Tree2.png-96a9740fe3ce9985c4a474b2c43ef5cc.ctex::
 Tree3.png::CompressedTexture2D/CompressedTexture2D::5283817017030363650::1754923248::1754938579::1::::<><><>0<>0<>9600b0f7a2c310039c510d030975518e<>res://.godot/imported/Tree3.png-122c66866bd8067c8fd98bde7710c757.ctex::
 Tree4.png::CompressedTexture2D/CompressedTexture2D::6167429324006576136::1754923248::1754938579::1::::<><><>0<>0<>fcb7ee3dfe03f4f634298e464d871a4e<>res://.godot/imported/Tree4.png-6463a68365df9e6e49ba57f4c0b0538c.ctex::
-::res://resources/tilesets/::1755272608
-tileset_adornos.tres::TileSet::1894580187259061268::1755272608::0::1::::<><><>0<>0<><>::uid://d0wdrvcn2037e::::res://resources/tilemaps/Blue Buildings/Castle.png<>uid://ci22semn32q7n::::res://resources/tilemaps/Trees/Tree1.png
-tileset_terreno.tres::TileSet::6901774151861877044::1755271587::0::1::::<><><>0<>0<><>::uid://cro1wlb43v25h::::res://resources/tilemaps/Water Background color.png<>uid://2vo7q0qcnd3m::::res://resources/tilemaps/Tilemap_color1.png<>uid://bca08bpu15uj5::::res://resources/tilemaps/Water_Elevation_#1_(12frames).png<>uid://cigl6rlbbiknk::::res://resources/tilemaps/Tilemap_color2.png<>uid://bkhkghg1clxan::::res://resources/tilemaps/Tilemap_color3.png<>uid://oc2apwulh7rd::::res://resources/tilemaps/Water_Elevation_#2_(12frames).png<>uid://b28t5xijd1jfx::::res://resources/tilemaps/Water_Elevation_#3_(12frames).png<>uid://dh2v6dn8gcul6::::res://resources/tilemaps/Water_Elevation_#4_(12frames).png<>uid://diibystpyji6c::::res://resources/tilemaps/Water_FlatGround_#1_(12frames).png<>uid://d8wg0e0028lb::::res://resources/tilemaps/Water_FlatGround_#2_(12frames).png<>uid://ds3u1503a8yyp::::res://resources/tilemaps/Water_FlatGround_#3_(12frames).png<>uid://dfsk473qcgpl::::res://resources/tilemaps/Water_FlatGround_#4_(12frames).png
-::res://scripts/::1754957084
-mc.gd::GDScript/GDScript::3097324519389369579::1754942432::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://resources/tilesets/::1755545937
+tileset_adornos.tres::TileSet::1894580187259061268::1755541772::0::1::::<><><>0<>0<><>::uid://d0wdrvcn2037e::::res://resources/tilemaps/Blue Buildings/Castle.png<>uid://ci22semn32q7n::::res://resources/tilemaps/Trees/Tree1.png
+tileset_terreno.tres::TileSet::6901774151861877044::1755545937::0::1::::<><><>0<>0<><>::uid://cro1wlb43v25h::::res://resources/tilemaps/Water Background color.png<>uid://2vo7q0qcnd3m::::res://resources/tilemaps/Tilemap_color1.png<>uid://bca08bpu15uj5::::res://resources/tilemaps/Water_Elevation_#1_(12frames).png<>uid://cigl6rlbbiknk::::res://resources/tilemaps/Tilemap_color2.png<>uid://bkhkghg1clxan::::res://resources/tilemaps/Tilemap_color3.png<>uid://oc2apwulh7rd::::res://resources/tilemaps/Water_Elevation_#2_(12frames).png<>uid://b28t5xijd1jfx::::res://resources/tilemaps/Water_Elevation_#3_(12frames).png<>uid://dh2v6dn8gcul6::::res://resources/tilemaps/Water_Elevation_#4_(12frames).png<>uid://diibystpyji6c::::res://resources/tilemaps/Water_FlatGround_#1_(12frames).png<>uid://d8wg0e0028lb::::res://resources/tilemaps/Water_FlatGround_#2_(12frames).png<>uid://ds3u1503a8yyp::::res://resources/tilemaps/Water_FlatGround_#3_(12frames).png<>uid://dfsk473qcgpl::::res://resources/tilemaps/Water_FlatGround_#4_(12frames).png
+::res://scripts/::1755548000
+mc.gd::GDScript::3097324519389369579::1755548000::0::1::::<>CharacterBody2D<><>0<>0<><>::

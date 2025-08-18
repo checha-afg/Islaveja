@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://cr021w2lq5qod"]
+
+[ext_resource type="Script" uid="uid://csyyurk6ulacn" path="res://npc1_dialogo.gd" id="1_b2e47"]
+[ext_resource type="StyleBox" uid="uid://8dewje6bcgn7" path="res://resources/misc/textbox.tres" id="2_607l2"]
+[ext_resource type="Texture2D" uid="uid://cec5lq5m644yp" path="res://resources/sprites/Units/npc1.png" id="3_b2e47"]
+[ext_resource type="FontFile" uid="uid://bs63r814vqsio" path="res://resources/fonts/PixeloidSans.ttf" id="4_nq3nn"]
+
+[node name="NPC1DIALOGO" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+process_mode = 3
+script = ExtResource("1_b2e47")
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.623529)
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+offset_top = 450.0
+offset_right = 758.0
+offset_bottom = 647.0
+theme_override_styles/panel = ExtResource("2_607l2")
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel"]
+layout_mode = 0
+offset_left = -129.0
+offset_top = -983.0
+offset_right = 1991.0
+offset_bottom = 1137.0
+texture = ExtResource("3_b2e47")
+flip_h = true
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 28.0
+offset_right = 729.0
+offset_bottom = 174.0
+theme_override_fonts/font = ExtResource("4_nq3nn")
+theme_override_font_sizes/font_size = 32
+autowrap_mode = 2
