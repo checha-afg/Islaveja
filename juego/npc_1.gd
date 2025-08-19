@@ -14,22 +14,17 @@ func _ready():
 	$Area2D.body_exited.connect(_on_body_exited)
 
 func _on_body_entered(body):
-	if body.name == "Jugador":
+	if body is CharacterBody2D: # cualquier jugador que sea CharacterBody2D
 		jugador_cercano = body
 		jugador_cercano.npc_cercano = self
 
 func _on_body_exited(body):
-	if body.name == "Jugador":
+	if body is CharacterBody2D:
 		jugador_cercano = null
 		body.npc_cercano = null
 
-func mostrar_dialogo():
-	# Instanciamos la escena de diálogo
-	var dialogue_instance = DialogueScene.instantiate()
-	
-	# Si tu escena de diálogo tiene un método para setear texto/personaje:
-	if dialogue_instance.has_method("mostrar_dialogo"):
-		dialogue_instance.mostrar_dialogo(dialogo, nombre)
 
-	# Añadirla a la escena actual (normalmente al root de gameplay)
+func mostrar_dialogo(_texto: String = ""): # recibe argumento pero no lo usa
+	print("Instanciando diálogo...") #debug
+	var dialogue_instance = DialogueScene.instantiate()
 	get_tree().current_scene.add_child(dialogue_instance)

@@ -7,6 +7,7 @@ var velocidad_texto := 0.02 # segundos entre letras
 var escribiendo := false
 
 func _ready():
+	print("Se abrió la caja de diálogo") #debug
 	mostrar_dialogo("¡ALTO!\n¿A donde vas? \nNo te dejare pasar si no me dices.")
 
 func mostrar_dialogo(texto_dialogo: String):

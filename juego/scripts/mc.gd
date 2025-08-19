@@ -27,6 +27,7 @@ func _physics_process(delta):
 
 	# Interacción con NPC
 	if Input.is_action_just_pressed("ui_accept") and npc_cercano:
+		print("Enter presionado cerca de NPC") #debug
 		npc_cercano.mostrar_dialogo(npc_cercano.dialogo)
 
 		# Reproducir animación del NPC si tiene AnimatedSprite2D
