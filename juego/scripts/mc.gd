@@ -25,11 +25,7 @@ func _physics_process(delta):
 	velocity = dir * speed
 	move_and_slide()
 
-	# Interacción con NPC
+	# Ahora
 	if Input.is_action_just_pressed("ui_accept") and npc_cercano:
 		print("Enter presionado cerca de NPC") #debug
-		npc_cercano.mostrar_dialogo(npc_cercano.dialogo)
-
-		# Reproducir animación del NPC si tiene AnimatedSprite2D
-		if npc_cercano.has_node("AnimatedSprite2D"):
-			npc_cercano.get_node("AnimatedSprite2D").play("default")
+		npc_cercano.interactuar()  # llama a la función correcta del NPC

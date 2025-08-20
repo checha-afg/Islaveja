@@ -1,0 +1,7 @@
+[gd_resource type="AudioStreamPlaylist" load_steps=2 format=3 uid="uid://modhyqhtxapv"]
+
+[ext_resource type="AudioStream" uid="uid://cbg6acf66vudt" path="res://resources/audio/07 - Port Town.wav" id="1_v04l1"]
+
+[resource]
+stream_count = 1
+stream_0 = ExtResource("1_v04l1")

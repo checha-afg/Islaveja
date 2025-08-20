@@ -1,17 +1,18 @@
-[gd_scene load_steps=5 format=3 uid="uid://cr021w2lq5qod"]
+[gd_scene load_steps=8 format=3 uid="uid://cr021w2lq5qod"]
 
 [ext_resource type="Script" uid="uid://csyyurk6ulacn" path="res://npc1_dialogo.gd" id="1_b2e47"]
 [ext_resource type="StyleBox" uid="uid://8dewje6bcgn7" path="res://resources/misc/textbox.tres" id="2_607l2"]
 [ext_resource type="Texture2D" uid="uid://cec5lq5m644yp" path="res://resources/sprites/Units/npc1.png" id="3_b2e47"]
 [ext_resource type="FontFile" uid="uid://bs63r814vqsio" path="res://resources/fonts/PixeloidSans.ttf" id="4_nq3nn"]
+[ext_resource type="Texture2D" uid="uid://dhjvjutgpgeuh" path="res://resources/tilemaps/Blue Buildings/House1.png" id="5_nq3nn"]
+[ext_resource type="Texture2D" uid="uid://d0wdrvcn2037e" path="res://resources/tilemaps/Blue Buildings/Castle.png" id="6_nhu5k"]
+[ext_resource type="Texture2D" uid="uid://bjmm8dmyi04cf" path="res://resources/tilemaps/Blue Buildings/Tower.png" id="7_dpegq"]
 
-[node name="NPC1DIALOGO" type="Node2D"]
-
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer"]
 process_mode = 3
 script = ExtResource("1_b2e47")
 
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+[node name="ColorRect" type="ColorRect" parent="."]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -19,22 +20,22 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 0.623529)
 
-[node name="Panel" type="Panel" parent="CanvasLayer"]
+[node name="Panel" type="Panel" parent="."]
 offset_top = 450.0
 offset_right = 758.0
 offset_bottom = 647.0
 theme_override_styles/panel = ExtResource("2_607l2")
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel"]
+[node name="TextureRect" type="TextureRect" parent="Panel"]
 layout_mode = 0
-offset_left = -129.0
-offset_top = -983.0
-offset_right = 1991.0
-offset_bottom = 1137.0
+offset_left = -117.0
+offset_top = -1030.0
+offset_right = 2003.0
+offset_bottom = 1090.0
 texture = ExtResource("3_b2e47")
 flip_h = true
 
-[node name="Label" type="Label" parent="CanvasLayer/Panel"]
+[node name="Label" type="Label" parent="Panel"]
 layout_mode = 0
 offset_left = 28.0
 offset_top = 28.0
@@ -43,3 +44,31 @@ offset_bottom = 174.0
 theme_override_fonts/font = ExtResource("4_nq3nn")
 theme_override_font_sizes/font_size = 32
 autowrap_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = -357.0
+offset_right = 90.0
+offset_bottom = -317.0
+
+[node name="Button" type="Button" parent="Panel/HBoxContainer"]
+layout_mode = 2
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 0.352941)
+theme_override_fonts/font = ExtResource("4_nq3nn")
+text = "Casa"
+icon = ExtResource("5_nq3nn")
+
+[node name="Button2" type="Button" parent="Panel/HBoxContainer"]
+layout_mode = 2
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 0.352941)
+theme_override_fonts/font = ExtResource("4_nq3nn")
+text = "Castillo"
+icon = ExtResource("6_nhu5k")
+
+[node name="Button3" type="Button" parent="Panel/HBoxContainer"]
+layout_mode = 2
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 0.352941)
+theme_override_fonts/font = ExtResource("4_nq3nn")
+text = "Torre"
+icon = ExtResource("7_dpegq")

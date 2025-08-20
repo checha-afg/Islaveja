@@ -1,3 +1,5 @@
+Button
+HBoxContainer
 CollisionShape2D
 Area2D
 StaticBody2D
@@ -10,5 +12,3 @@ Panel
 CanvasLayer
 TileMapLayer
 Camera2D
-CollisionPolygon2D
-CharacterBody2D

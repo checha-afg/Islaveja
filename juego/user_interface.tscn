@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cmvm4ad2n8bv7" path="res://resources/sprites/Units/warriorportrait.png" id="2_i7dvk"]
 [ext_resource type="FontFile" uid="uid://bs63r814vqsio" path="res://resources/fonts/PixeloidSans.ttf" id="4_0jl8t"]
 
-[node name="Presentacion" type="Node2D"]
+[node name="first_dialogue" type="Node2D"]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 process_mode = 3

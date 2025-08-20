@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dt1wym4yrxsan"]
+[gd_scene load_steps=6 format=3 uid="uid://dt1wym4yrxsan"]
 
 [ext_resource type="SpriteFrames" uid="uid://bwhjbuq8tyn05" path="res://resources/sprites/npc1.tres" id="1_36eg4"]
 [ext_resource type="Script" uid="uid://dgjvetckrfyls" path="res://npc_1.gd" id="1_f7vnm"]
+[ext_resource type="PackedScene" uid="uid://cr021w2lq5qod" path="res://npc1_dialogue_box.tscn" id="3_i8u8t"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f7vnm"]
 
@@ -28,3 +29,5 @@ collision_mask = 4
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 scale = Vector2(10, 10)
 shape = SubResource("CircleShape2D_f7vnm")
+
+[node name="NPC1DIALOGO" parent="." instance=ExtResource("3_i8u8t")]

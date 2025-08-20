@@ -1,3 +1,4 @@
+AudioStreamPlaylist
 SpriteFrames
 StyleBoxTexture
 TileSet

@@ -1,11 +1,11 @@
 [gd_scene load_steps=9 format=4 uid="uid://l736gwt86d70"]
 
 [ext_resource type="TileSet" uid="uid://c5ljhg8jpffua" path="res://resources/tilesets/tileset_terreno.tres" id="1_ig7tw"]
-[ext_resource type="AudioStream" uid="uid://cbg6acf66vudt" path="res://resources/audio/07 - Port Town.wav" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://bkemqnsxvxoj0" path="res://scripts/mc.gd" id="3_1bvp3"]
 [ext_resource type="SpriteFrames" uid="uid://bboqre5w8y03b" path="res://resources/sprites/mc_idle.tres" id="3_h2yge"]
 [ext_resource type="TileSet" uid="uid://180pup6igppk" path="res://resources/tilesets/tileset_adornos.tres" id="5_lquwl"]
 [ext_resource type="PackedScene" uid="uid://dohjsyeyty131" path="res://user_interface.tscn" id="6_7mycd"]
+[ext_resource type="AudioStream" uid="uid://modhyqhtxapv" path="res://resources/audio/playlist.tres" id="6_272bh"]
 [ext_resource type="PackedScene" uid="uid://dt1wym4yrxsan" path="res://npc1.tscn" id="7_272bh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1bvp3"]
@@ -48,7 +48,7 @@ tile_set = ExtResource("5_lquwl")
 position = Vector2(215, 288)
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("2_0xm2m")
+stream = ExtResource("6_272bh")
 autoplay = true
 
 [node name="UserInterface" parent="." instance=ExtResource("6_7mycd")]
