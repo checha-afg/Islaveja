@@ -34,15 +34,15 @@ func interactuar():
 func _on_opcion_elegida(opcion: String):
 	match opcion:
 		"Casa":
-			dialogue_instance.mostrar_dialogo("NPC: No hay casas en esta isla.\n Por eso duermo aquí.")
+			dialogue_instance.mostrar_dialogo("No hay casas en esta isla.\n Por eso duermo aquí.")
 		"Castillo":
 			# Mostramos el texto primero
-			dialogue_instance.mostrar_dialogo("NPC: De acuerdo, adelante.")
+			dialogue_instance.mostrar_dialogo("De acuerdo, adelante.")
 			await get_tree().create_timer(5).timeout
 			# Luego de los 6 segundos quitamos todo
 			dialogue_instance.queue_free() # quita la caja de diálogo
 			queue_free() # elimina al NPC
 		"Torre":
-			dialogue_instance.mostrar_dialogo("NPC: ¡No hay torres a la vista! \n Quizás necesito lentes.")
+			dialogue_instance.mostrar_dialogo("¡No hay torres a la vista! \n Quizás necesito lentes.")
 		_:
 			dialogue_instance.mostrar_dialogo("NPC: ... No entendí tu respuesta.")
