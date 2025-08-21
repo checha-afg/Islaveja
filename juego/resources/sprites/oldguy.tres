@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://bwgnw8mpgq4lo"]
+
+[ext_resource type="Texture2D" uid="uid://cc6m2t0w05sic" path="res://resources/sprites/Units/Yellow Units/Monk/Idle.png" id="1_1l2uw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f6wws"]
+atlas = ExtResource("1_1l2uw")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqpbu"]
+atlas = ExtResource("1_1l2uw")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38y16"]
+atlas = ExtResource("1_1l2uw")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3hgsh"]
+atlas = ExtResource("1_1l2uw")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ujh7v"]
+atlas = ExtResource("1_1l2uw")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iqpg4"]
+atlas = ExtResource("1_1l2uw")
+region = Rect2(960, 0, 192, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f6wws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqpbu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38y16")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3hgsh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ujh7v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iqpg4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

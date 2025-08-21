@@ -10,10 +10,10 @@ config_version=5
 
 [application]
 
-config/name="Juego"
+config/name="Islaveja"
 run/main_scene="uid://l736gwt86d70"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://c1ganto7hme13"
 
 [layer_names]
 

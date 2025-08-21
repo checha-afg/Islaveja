@@ -38,7 +38,7 @@ func _on_opcion_elegida(opcion: String):
 		"Castillo":
 			# Mostramos el texto primero
 			dialogue_instance.mostrar_dialogo("De acuerdo, adelante.")
-			await get_tree().create_timer(5).timeout
+			await get_tree().create_timer(2).timeout
 			# Luego de los 6 segundos quitamos todo
 			dialogue_instance.queue_free() # quita la caja de diálogo
 			queue_free() # elimina al NPC

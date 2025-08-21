@@ -1,13 +1,4 @@
-res://main.tscn
-res://resources/tilesets/tileset_terreno.tres
+res://creditos.tscn
 res://resources/sprites/mc_idle.tres
-res://resources/tilesets/tileset_adornos.tres
+res://resources/sprites/sheep.tres
 res://resources/misc/textbox.tres
-res://resources/sprites/npc1.tres
-res://npc1.tscn
-res://npc1_dialogue_box.tscn
-res://user_interface.tscn
-res://npc1_dialogo.gd
-res://npc_1.gd
-res://resources/audio/playlist.tres
-res://scripts/mc.gd

@@ -1,4 +1,5 @@
-AudioStreamPlaylist
+CompressedTexture2D
 SpriteFrames
+AudioStreamPlaylist
 StyleBoxTexture
 TileSet

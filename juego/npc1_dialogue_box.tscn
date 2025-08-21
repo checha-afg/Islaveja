@@ -56,19 +56,28 @@ offset_bottom = -317.0
 layout_mode = 2
 theme_override_colors/icon_hover_color = Color(1, 1, 1, 0.352941)
 theme_override_fonts/font = ExtResource("4_nq3nn")
+theme_override_font_sizes/font_size = 24
 text = "Casa"
 icon = ExtResource("5_nq3nn")
+icon_alignment = 1
+vertical_icon_alignment = 0
 
 [node name="Button2" type="Button" parent="Panel/HBoxContainer"]
 layout_mode = 2
 theme_override_colors/icon_hover_color = Color(1, 1, 1, 0.352941)
 theme_override_fonts/font = ExtResource("4_nq3nn")
+theme_override_font_sizes/font_size = 24
 text = "Castillo"
 icon = ExtResource("6_nhu5k")
+icon_alignment = 1
+vertical_icon_alignment = 0
 
 [node name="Button3" type="Button" parent="Panel/HBoxContainer"]
 layout_mode = 2
 theme_override_colors/icon_hover_color = Color(1, 1, 1, 0.352941)
 theme_override_fonts/font = ExtResource("4_nq3nn")
+theme_override_font_sizes/font_size = 24
 text = "Torre"
 icon = ExtResource("7_dpegq")
+icon_alignment = 1
+vertical_icon_alignment = 0

@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://crchas6yj4trk"]
+
+[ext_resource type="Script" uid="uid://blqmx6bmqolvd" path="res://npc_2.gd" id="1_je7f1"]
+[ext_resource type="SpriteFrames" uid="uid://bwgnw8mpgq4lo" path="res://resources/sprites/oldguy.tres" id="2_txkxk"]
+[ext_resource type="PackedScene" uid="uid://cm3wyw6pwrsoq" path="res://minijuego_ordenar.tscn" id="3_fbj2s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yqpc1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kusug"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("1_je7f1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_txkxk")
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_yqpc1")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2(10, 10)
+shape = SubResource("CircleShape2D_kusug")
+
+[node name="MinijuegoOrdenar" parent="." instance=ExtResource("3_fbj2s")]

@@ -1,0 +1,99 @@
+[gd_scene load_steps=7 format=3 uid="uid://bo2lwm4qokoli"]
+
+[ext_resource type="FontFile" uid="uid://bs63r814vqsio" path="res://resources/fonts/PixeloidSans.ttf" id="1_7flbs"]
+[ext_resource type="SpriteFrames" uid="uid://bboqre5w8y03b" path="res://resources/sprites/mc_idle.tres" id="2_alf7g"]
+[ext_resource type="Script" uid="uid://kskvnpmp77sb" path="res://credits_warrior.gd" id="3_3rtis"]
+[ext_resource type="AudioStream" uid="uid://dhol01snpsc51" path="res://resources/audio/22 - The Final of The Fantasy.mp3" id="3_alf7g"]
+[ext_resource type="SpriteFrames" uid="uid://d17jay5vor23t" path="res://resources/sprites/sheep.tres" id="5_3rbuu"]
+[ext_resource type="Script" uid="uid://dp1f7gg2g35xf" path="res://sheep_1.gd" id="6_fb38b"]
+
+[node name="creditos" type="CanvasLayer"]
+process_mode = 3
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1174.0
+offset_bottom = 673.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 185.0
+offset_top = 42.0
+offset_right = 1863.0
+offset_bottom = 199.0
+theme_override_fonts/font = ExtResource("1_7flbs")
+theme_override_font_sizes/font_size = 70
+text = "¡GRACIAS POR AYUDARME!"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(97, 91)
+sprite_frames = ExtResource("2_alf7g")
+speed_scale = 4.0
+script = ExtResource("3_3rtis")
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 50.0
+offset_top = 254.0
+offset_right = 1728.0
+offset_bottom = 411.0
+theme_override_fonts/font = ExtResource("1_7flbs")
+theme_override_font_sizes/font_size = 32
+text = "Grafícos por:"
+
+[node name="Label2" type="Label" parent="Label3"]
+layout_mode = 0
+offset_top = 41.0
+offset_right = 1678.0
+offset_bottom = 198.0
+theme_override_fonts/font = ExtResource("1_7flbs")
+theme_override_font_sizes/font_size = 32
+text = "Pixel Frog"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 50.0
+offset_top = 150.0
+offset_right = 1728.0
+offset_bottom = 307.0
+theme_override_fonts/font = ExtResource("1_7flbs")
+theme_override_font_sizes/font_size = 32
+text = "Desarrollo y planeacion por:"
+
+[node name="Label2" type="Label" parent="Label2"]
+layout_mode = 0
+offset_top = 39.0
+offset_right = 1678.0
+offset_bottom = 196.0
+theme_override_fonts/font = ExtResource("1_7flbs")
+theme_override_font_sizes/font_size = 32
+text = "César Flores"
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 50.0
+offset_top = 360.0
+offset_right = 1728.0
+offset_bottom = 517.0
+theme_override_fonts/font = ExtResource("1_7flbs")
+theme_override_font_sizes/font_size = 32
+text = "Banda sonora por:"
+
+[node name="Label2" type="Label" parent="Label4"]
+layout_mode = 0
+offset_top = 39.0
+offset_right = 1678.0
+offset_bottom = 196.0
+theme_override_fonts/font = ExtResource("1_7flbs")
+theme_override_font_sizes/font_size = 32
+text = "Marllon Silva (xDeviruchi)"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_alf7g")
+autoplay = true
+
+[node name="sheep1" type="AnimatedSprite2D" parent="."]
+position = Vector2(721, -1195)
+scale = Vector2(3.6625, 3.6625)
+sprite_frames = ExtResource("5_3rbuu")
+animation = &"eating"
+speed_scale = 2.0
+offset = Vector2(70, 476)
+flip_h = true
+script = ExtResource("6_fb38b")
