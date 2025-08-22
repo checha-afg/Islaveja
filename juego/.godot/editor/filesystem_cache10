@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1755803792
+::res://::1755836099
 canvas_layer_dialogo.gd::GDScript/GDScript::3782317990805851376::1755549529::0::1::::<>CanvasLayer<><>0<>0<><>::
-creditos.tscn::PackedScene/PackedScene::3425510544197122086::1755798896::0::1::::<><><>0<>0<><>::uid://bs63r814vqsio::::res://resources/fonts/PixeloidSans.ttf<>uid://bboqre5w8y03b::::res://resources/sprites/mc_idle.tres<>uid://kskvnpmp77sb::::res://credits_warrior.gd<>uid://dhol01snpsc51::::res://resources/audio/22 - The Final of The Fantasy.mp3<>uid://d17jay5vor23t::::res://resources/sprites/sheep.tres<>uid://dp1f7gg2g35xf::::res://sheep_1.gd
+creditos.tscn::PackedScene::3425510544197122086::1755804492::0::1::::<><><>0<>0<><>::uid://bs63r814vqsio::::res://resources/fonts/PixeloidSans.ttf<>uid://bboqre5w8y03b::::res://resources/sprites/mc_idle.tres<>uid://kskvnpmp77sb::::res://credits_warrior.gd<>uid://dhol01snpsc51::::res://resources/audio/22 - The Final of The Fantasy.mp3<>uid://d17jay5vor23t::::res://resources/sprites/sheep.tres<>uid://dp1f7gg2g35xf::::res://sheep_1.gd
 credits_warrior.gd::GDScript/GDScript::739692614095250837::1755798660::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
-export_presets.cfg::TextFile/TextFile::-1::1755803639::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1755804481::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::6594628909671029287::1755803502::1755803766::1::::<><><>0<>0<>d4129f234f89439f86c69ccd2a91a1c7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 main.tscn::PackedScene/PackedScene::839893153591174989::1755798895::0::1::::<><><>0<>0<><>::uid://c5ljhg8jpffua::::res://resources/tilesets/tileset_terreno.tres<>uid://bkemqnsxvxoj0::::res://scripts/mc.gd<>uid://dp1f7gg2g35xf::::res://sheep_1.gd<>uid://bboqre5w8y03b::::res://resources/sprites/mc_idle.tres<>uid://d17jay5vor23t::::res://resources/sprites/sheep.tres<>uid://180pup6igppk::::res://resources/tilesets/tileset_adornos.tres<>uid://dohjsyeyty131::::res://user_interface.tscn<>uid://modhyqhtxapv::::res://resources/audio/playlist.tres<>uid://c14r1ohsql5eu::::res://sheep.gd<>uid://dt1wym4yrxsan::::res://npc1.tscn<>uid://crchas6yj4trk::::res://npc2.tscn<>uid://bs21nygb48dac::::res://to_credits.gd
 minijuego_ordenar.gd::GDScript/GDScript::2199429786912765666::1755796378::0::1::::<>CanvasLayer<><>0<>0<><>::
@@ -25,15 +25,16 @@ user_interface.tscn::PackedScene/PackedScene::8156936371371797290::1755705789::0
 playlist.tres::AudioStreamPlaylist/AudioStreamPlaylist::871363349370476123::1755706694::0::1::::<><><>0<>0<><>::uid://cbg6acf66vudt::::res://resources/audio/07 - Port Town.wav
 ::res://resources/fonts/::1755539309
 PixeloidSans.ttf::FontFile/FontFile::3715547788629191126::1754118644::1755539200::1::::<><><>0<>0<>f392bedb73c53a069f18bf721e14307c<>res://.godot/imported/PixeloidSans.ttf-d162b580552683a2f0b25902f3af2ac7.fontdata::
-::res://resources/misc/::1755803771
+::res://resources/misc/::1755804091
 HUD Text Box.png::CompressedTexture2D/CompressedTexture2D::684530978299010813::1755525503::1755527473::1::::<><><>0<>0<>d3edac4f080e251fde73bf8be2c42864<>res://.godot/imported/HUD Text Box.png-f121ade0bd7bd996506ab4bba7ed82d4.ctex::
+icon.ico::OtherFile::-1::1755804091::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D/CompressedTexture2D::6610161804854846064::1755803151::1755803224::1::::<><><>0<>0<>208024c4d5e65d5c4210eccd5f098b8c<>res://.godot/imported/icon.png-375bd7a90048664f2c39918e72a94515.ctex::
-textbox.tres::StyleBoxTexture::2322707609053511026::1755803771::0::1::::<><><>0<>0<><>::uid://j0ueiy6c0npd::::res://resources/misc/HUD Text Box.png
-::res://resources/sprites/::1755803771
-mc_idle.tres::SpriteFrames::2486512903750801581::1755803771::0::1::::<><><>0<>0<><>::uid://b5ialflxaql53::::res://resources/sprites/Units/Blue Units/Warrior/Warrior_Idle.png<>uid://b6g3ibee7eect::::res://resources/sprites/Units/Blue Units/Warrior/Warrior_Run.png
+textbox.tres::StyleBoxTexture::2322707609053511026::1755803968::0::1::::<><><>0<>0<><>::uid://j0ueiy6c0npd::::res://resources/misc/HUD Text Box.png
+::res://resources/sprites/::1755803968
+mc_idle.tres::SpriteFrames::2486512903750801581::1755803968::0::1::::<><><>0<>0<><>::uid://b5ialflxaql53::::res://resources/sprites/Units/Blue Units/Warrior/Warrior_Idle.png<>uid://b6g3ibee7eect::::res://resources/sprites/Units/Blue Units/Warrior/Warrior_Run.png
 npc1.tres::SpriteFrames/SpriteFrames::3945575203446627124::1755786360::0::1::::<><><>0<>0<><>::uid://8ux6y30gbrtf::::res://resources/sprites/Units/Red Units/Lancer/Lancer_Idle.png
 oldguy.tres::SpriteFrames/SpriteFrames::3943791871124463800::1755789721::0::1::::<><><>0<>0<><>::uid://cc6m2t0w05sic::::res://resources/sprites/Units/Yellow Units/Monk/Idle.png
-sheep.tres::SpriteFrames::9050779834611045055::1755803771::0::1::::<><><>0<>0<><>::uid://blt215ilbvat4::::res://resources/tilemaps/Sheep/Sheep_Idle.png<>uid://dgs4iuan2t1fj::::res://resources/tilemaps/Sheep/Sheep_Grass.png
+sheep.tres::SpriteFrames::9050779834611045055::1755803968::0::1::::<><><>0<>0<><>::uid://blt215ilbvat4::::res://resources/tilemaps/Sheep/Sheep_Idle.png<>uid://dgs4iuan2t1fj::::res://resources/tilemaps/Sheep/Sheep_Grass.png
 ::res://resources/sprites/Units/::1755789276
 npc1.png::CompressedTexture2D/CompressedTexture2D::5059567538267959435::1755549162::1755549178::1::::<><><>0<>0<>3a6de34cfb20a4731006b063dfb4664d<>res://.godot/imported/npc1.png-3eaa198b541dc2df2df1e79c29ed5ce3.ctex::
 oldguy.png::CompressedTexture2D/CompressedTexture2D::134785026545730890::1755789166::1755789276::1::::<><><>0<>0<>5b80abe65b6e9311e4fa313d4f3ac656<>res://.godot/imported/oldguy.png-34ba390e741ba53a5da63be67b42a16a.ctex::

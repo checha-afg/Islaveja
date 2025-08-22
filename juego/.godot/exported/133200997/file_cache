@@ -1,12 +1,12 @@
 res://resources/audio/playlist.tres::9e541d321f39f90731dc9962558c4d17::1755706694::res://.godot/exported/133200997/export-bf6645d04de4e76b4d2f4c71f2fdc5c5-playlist.res
-res://resources/misc/textbox.tres::f00aee80edf1fc50a2bce4098c2fac35::1755803968::res://.godot/exported/133200997/export-a1b619bb45b7814ab01af2abfacfe27d-textbox.res
-res://resources/sprites/mc_idle.tres::c7655eb2e7dda57ac278d2f426332dc1::1755803968::res://.godot/exported/133200997/export-b07a4c25f90b5cda166b941513adc567-mc_idle.res
+res://resources/misc/textbox.tres::f00aee80edf1fc50a2bce4098c2fac35::1755836577::res://.godot/exported/133200997/export-a1b619bb45b7814ab01af2abfacfe27d-textbox.res
+res://resources/sprites/mc_idle.tres::c7655eb2e7dda57ac278d2f426332dc1::1755836577::res://.godot/exported/133200997/export-b07a4c25f90b5cda166b941513adc567-mc_idle.res
 res://resources/sprites/npc1.tres::05fb059057a36b5541a063ad8f79b406::1755786360::res://.godot/exported/133200997/export-b88ad6636997b93d0cba678a396d6f19-npc1.res
 res://resources/sprites/oldguy.tres::c41d1821b4c0cb406d55d656351f583f::1755789721::res://.godot/exported/133200997/export-900e5028956c212291baa7e076a291d8-oldguy.res
-res://resources/sprites/sheep.tres::577fc8bc09417e34dc8d3f77f7169e56::1755803968::res://.godot/exported/133200997/export-adb1be0347ea55ff1708857473a70538-sheep.res
+res://resources/sprites/sheep.tres::577fc8bc09417e34dc8d3f77f7169e56::1755836577::res://.godot/exported/133200997/export-adb1be0347ea55ff1708857473a70538-sheep.res
 res://resources/tilesets/tileset_adornos.tres::ed4dddbe82efe4e7c62ba2a610be24ea::1755786638::res://.godot/exported/133200997/export-b795e7bdcadc1ed6dc40a8704a804659-tileset_adornos.res
 res://resources/tilesets/tileset_terreno.tres::b09ead1cb9d34e14cb5b27c914016788::1755786360::res://.godot/exported/133200997/export-3f7120ded64ea92a9f15d2f06a703469-tileset_terreno.res
-res://creditos.tscn::76734687c02640e4bed16ca08bfd722e::1755804228::res://.godot/exported/133200997/export-3577ac1cda23ca3538ce45cd125031e9-creditos.scn
+res://creditos.tscn::76734687c02640e4bed16ca08bfd722e::1755836577::res://.godot/exported/133200997/export-3577ac1cda23ca3538ce45cd125031e9-creditos.scn
 res://main.tscn::192e2bbc0f25d3bf7184af1aa2014ee3::1755798895::res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn
 res://minijuego_ordenar.tscn::33862c37840ffb70c9da2121a9761b0f::1755798895::res://.godot/exported/133200997/export-66e65831e22c7272ae2b3c4caa9bc1d9-minijuego_ordenar.scn
 res://npc1.tscn::f9c87b53f9c4311b0f22742c531d5db7::1755798895::res://.godot/exported/133200997/export-ad6f4f1c292e6b0c97183ebdfae64e27-npc1.scn
